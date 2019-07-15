@@ -14,7 +14,7 @@ import time
 def scrape_page(target, limit):
     links = set()
     print('TARGET ====> ' + str(target))
-    if 'Wikipedia does not have an article with this exact name' not in str(target):
+    if 'does not have an article' not in str(target):
         target = requests.get('https://en.wikipedia.org/wiki/' + str(target))
         print('https://en.wikipedia.org/wiki/' + str(target))
         soup = BeautifulSoup(target.content, "html.parser")
