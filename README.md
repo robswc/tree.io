@@ -1,9 +1,9 @@
 ![treeio](img/treeio_textlogo.png)
 
 # Tree.io
-Tree.io is a app that can create a network visualization of pairwise relations between various topics.  The app currently scrapes Wikipedia to build its lists, so there must be a wikipedia page about the topic for the program to work! In the future, I hope to increase the available topics!
+Tree.io is a collection of tools in the form of a python app.  The tools are represented by functions, files and classes and can be called with various parameters and arguments.
 
-Tree.io can be used to see the relationship one topic has to with another.  Starting with the "origin" topic, the tree.io app will find topics related to the origin topic, called edges.  From these edges, more edges will be created until the app hits its depth limit. (the max amount of "levels" from the origin topic)
+The majority of the tools focus on collecting and compiling data from wikipedia in helpful ways.  For example, need a quick family tree of the Royal Family? Want to plot major battles from WWII onto a live map?  Or perhaps even see how Ice Cream and frogs are related.  Tree.io can do that for you!
 
 ## How to use:
 
